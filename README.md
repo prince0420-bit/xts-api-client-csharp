@@ -38,26 +38,29 @@ The objective of this assignment is **not to build a full trading system**, but 
 XTSApiClient/
 │
 └── XTSClient/
-│
-├── XTSClient.csproj
-├── Program.cs
-├── appsettings.json
-│
-├── Core/
-│ ├── ApiClient.cs
-│ └── XtsSession.cs
-│
-├── MarketData/
-│ ├── OhlcService.cs
-│ └── FnoService.cs
-│
-├── Socket/
-│ └── MarketSocket.cs
-│
-├── Models/
-│ └── LoginResponse.cs
-│
-└── README.md
+    │
+    ├── .gitignore
+    ├── README.md
+    ├── Program.cs
+    ├── XTSClient.csproj
+    │
+    ├── Core/
+    │   ├── ApiClient.cs
+    │   └── XtsSession.cs
+    │
+    ├── MarketData/
+    │   ├── OhlcService.cs
+    │   └── FnoService.cs
+    │
+    ├── Socket/
+    │   └── MarketSocket.cs
+    │
+    ├── Models/
+    │   └── LoginResponse.cs
+  
+    │
+    └── appsettings.example.json   (sample config, real one NOT committed)
+
 
 
 ---
