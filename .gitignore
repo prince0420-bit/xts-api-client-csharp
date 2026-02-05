@@ -1,0 +1,13 @@
+# .NET build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Configuration files
+appsettings.json
+
+# Logs
+*.log
