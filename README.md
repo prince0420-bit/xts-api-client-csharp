@@ -57,9 +57,9 @@ XTSApiClient/
     │
     ├── Models/
     │   └── LoginResponse.cs
-  
     │
     └── appsettings.example.json   (sample config, real one NOT committed)
+
 
 
 
